@@ -50,7 +50,7 @@ module.exports = (function (testMode) {
                 typescript:typescript
             };
 
-        _.extend(compilerOptions, defultCompilerOptions);
+        //_.extend(compilerOptions, defultCompilerOptions);
 
 
         /*
