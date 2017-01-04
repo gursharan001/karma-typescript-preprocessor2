@@ -46,7 +46,10 @@ module.exports = function(config) {
     typescriptPreprocessor: {
       // options passed to typescript compiler 
       tsconfigPath: './tsconfig.json', // *obligatory
-      compilerOptions: { // *optional
+      compilerOptions: { 
+        // *required
+        "typescript": require("typescript"),
+        // *optional
         removeComments: false
       },
       // Options passed to gulp-sourcemaps to create sourcemaps
